@@ -151,11 +151,12 @@ $(".square").on("click", function(){
 					if((controlVar != game.grid[i][y]) && (game.testVariableSame == true))
 						game.testVariableSame == false;
 				}
-			} 
-			if(game.testVariableSame == true)
-			{
-				game.gameWon = true;
-				alert("You've won!!!");
+			
+				if(game.testVariableSame == true)
+				{
+					game.gameWon = true;
+					alert("You've won!!!");
+				}
 			}
 		}
 	}
