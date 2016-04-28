@@ -23,137 +23,164 @@ $(".square").on("click", function(){
 		switch(game.spaceSelected)
 		{
 			case "1-1":
-			if(game.currentPlayer == 0)
+			if((game.grid[0][0] != 0) && (game.grid[0][0] != 1))
 			{
-				game.grid[0][0] = 0;
-				game.currentPlayer = 1;
-				game.ohs();
-			}
-			else
-			{
-				game.grid[0][0] = 1;
-				game.currentPlayer = 0;
-				game.exes();
+				if(game.currentPlayer == 0)
+				{
+					game.grid[0][0] = 0;
+					game.currentPlayer = 1;
+					game.ohs();
+				}
+				else
+				{
+					game.grid[0][0] = 1;
+					game.currentPlayer = 0;
+					game.exes();
+				}
 			}
 			break;
 
 			case "1-2":
-			if(game.currentPlayer == 0)
+			if((game.grid[0][1] != 0) && (game.grid[0][1] != 1))
 			{
-				game.grid[0][1] = 0;
-				game.currentPlayer = 1;
-				game.ohs();
-			}
-			else
-			{
-				game.grid[0][1] = 1;
-				game.currentPlayer = 0;
-				game.exes();
+				if(game.currentPlayer == 0)
+				{
+					game.grid[0][1] = 0;
+					game.currentPlayer = 1;
+					game.ohs();
+				}
+				else
+				{
+					game.grid[0][1] = 1;
+					game.currentPlayer = 0;
+					game.exes();
+				}
 			}
 			break;
 
 			case "1-3":
-			if(game.currentPlayer == 0)
+			if((game.grid[0][2] != 0) && (game.grid[0][2] != 1))
 			{
-				game.grid[0][2] = 0;
-				game.currentPlayer = 1;
-				game.ohs();
-			}
-			else
-			{
-				game.grid[0][2] = 1;
-				game.currentPlayer = 0;
-				game.exes();
+				if(game.currentPlayer == 0)
+				{
+					game.grid[0][2] = 0;
+					game.currentPlayer = 1;
+					game.ohs();
+				}
+				else
+				{
+					game.grid[0][2] = 1;
+					game.currentPlayer = 0;
+					game.exes();
+				}
 			}
 			break;
 
 			case "2-1":
-			if(game.currentPlayer == 0)
+			if((game.grid[1][0] != 0) && (game.grid[1][0] != 1))
 			{
-				game.grid[1][0] = 0;
-				game.currentPlayer = 1;
-				game.ohs();
-			}
-			else
-			{
-				game.grid[1][0] = 1;
-				game.currentPlayer = 0;
-				game.exes();
+				if(game.currentPlayer == 0)
+				{
+					game.grid[1][0] = 0;
+					game.currentPlayer = 1;
+					game.ohs();
+				}
+				else
+				{
+					game.grid[1][0] = 1;
+					game.currentPlayer = 0;
+					game.exes();
+				}
 			}
 			break;
 
 			case "2-2":
-			if(game.currentPlayer == 0)
+			if((game.grid[1][1] != 0) && (game.grid[1][1] != 1))
 			{
-				game.grid[1][1] = 0;
-				game.currentPlayer = 1;
-				game.ohs();
-			}
-			else
-			{
-				game.grid[1][1] = 1;
-				game.currentPlayer = 0;
-				game.exes();
+				if(game.currentPlayer == 0)
+				{
+					game.grid[1][1] = 0;
+					game.currentPlayer = 1;
+					game.ohs();
+				}
+				else
+				{
+					game.grid[1][1] = 1;
+					game.currentPlayer = 0;
+					game.exes();
+				}
 			}
 			break;
 
 			case "2-3":
-			if(game.currentPlayer == 0)
+			if((game.grid[1][2] != 0) && (game.grid[1][2] != 1))
 			{
-				game.grid[1][2] = 0;
-				game.currentPlayer = 1;
-				game.ohs();
-			}
-			else
-			{
-				game.grid[1][2] = 1;
-				game.currentPlayer = 0;
-				game.exes();
+				if(game.currentPlayer == 0)
+				{
+					game.grid[1][2] = 0;
+					game.currentPlayer = 1;
+					game.ohs();
+				}
+				else
+				{
+					game.grid[1][2] = 1;
+					game.currentPlayer = 0;
+					game.exes();
+				}
 			}
 			break;
 
 			case "3-1":
-			if(game.currentPlayer == 0)
+			if((game.grid[2][0] != 0) && (game.grid[2][0] != 1))
 			{
-				game.grid[2][0] = 0;
-				game.currentPlayer = 1;
-				game.ohs();
-			}
-			else
-			{
-				game.grid[2][0] = 1;
-				game.currentPlayer = 0;
-				game.exes();
+				if(game.currentPlayer == 0)
+				{
+					game.grid[2][0] = 0;
+					game.currentPlayer = 1;
+					game.ohs();
+				}
+				else
+				{
+					game.grid[2][0] = 1;
+					game.currentPlayer = 0;
+					game.exes();
+				}
 			}
 			break;
 
 			case "3-2":
-			if(game.currentPlayer == 0)
+			if((game.grid[2][1] != 0) && (game.grid[2][1] != 1))
 			{
-				game.grid[2][1] = 0;
-				game.currentPlayer = 1;
-				game.ohs();
-			}
-			else
-			{
-				game.grid[2][1] = 1;
-				game.currentPlayer = 0;
-				game.exes();
+				if(game.currentPlayer == 0)
+				{
+					game.grid[2][1] = 0;
+					game.currentPlayer = 1;
+					game.ohs();
+				}
+				else
+				{
+					game.grid[2][1] = 1;
+					game.currentPlayer = 0;
+					game.exes();
+				}
 			}
 			break;
 
 			case "3-3":
-			if(game.currentPlayer == 0)
+			if((game.grid[2][2] != 0) && (game.grid[2][2] != 1))
 			{
-				game.grid[2][2] = 0;
-				game.currentPlayer = 1;
-				game.ohs();
-			}
-			else
-			{
-				game.grid[2][2] = 1;
-				game.currentPlayer = 0;
-				game.exes();
+				if(game.currentPlayer == 0)
+				{
+					game.grid[2][2] = 0;
+					game.currentPlayer = 1;
+					game.ohs();
+				}
+				else
+				{
+					game.grid[2][2] = 1;
+					game.currentPlayer = 0;
+					game.exes();
+				}
 			}
 			break;
 
@@ -164,8 +191,6 @@ $(".square").on("click", function(){
 		//test for horizontal win
 		for(var i = 0; i < game.grid.length; i++)
 		{
-			if (game.gameWon == false)
-			{
 				//tests all columns against first value in first row
 				var controlVar = game.grid[i][0];
 				for(var j = 0; j < game.grid[i].length; j++)
@@ -184,14 +209,13 @@ $(".square").on("click", function(){
 				}
 				//resets the variable test for the next run
 				game.testVariableSame = true;
-			}
+			
 		}
 
 		//test for vertical win
 		for(var i = 0; i < game.grid.length; i++)
 		{
-			if (game.gameWon == false)
-			{
+
 				//tests all rows against first value in first column
 				var controlVar = game.grid[0][i];
 				for(var j = 0; j < game.grid[i].length; j++)
@@ -202,7 +226,7 @@ $(".square").on("click", function(){
 						game.testVariableSame = false;
 					}
 				}
-				//if false has not been flagged, all values are equal in row. Therefore win.
+				//if false has not been flagged, all values are equal in column. Therefore win.
 				if(game.testVariableSame == true)
 				{
 					game.gameWon = true;
@@ -210,7 +234,7 @@ $(".square").on("click", function(){
 				}
 				//resets the variable test for the next run
 				game.testVariableSame = true;
-			}
+
 		}
 
 
@@ -220,7 +244,7 @@ $(".square").on("click", function(){
 			{
 				game.testVariableSame = false;
 			}
-		//if false has not been flagged, all values are equal in row. Therefore win.
+		//if false has not been flagged, all values are equal in diagonal. Therefore win.
 			if(game.testVariableSame == true)
 			{
 				game.gameWon = true;
@@ -236,7 +260,7 @@ $(".square").on("click", function(){
 			{
 				game.testVariableSame = false;
 			}
-		//if false has not been flagged, all values are equal in row. Therefore win.
+		//if false has not been flagged, all values are equal in diagonal. Therefore win.
 			if(game.testVariableSame == true)
 			{
 				game.gameWon = true;
