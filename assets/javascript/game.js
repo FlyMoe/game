@@ -133,8 +133,9 @@ $(".square").on("click", function(){
 			break;
 
 		default:
-
-
+			alert("Something broke!");
 	}
+
+	console.log(game.grid);
 
 });
