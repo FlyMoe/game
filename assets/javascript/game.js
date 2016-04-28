@@ -15,7 +15,7 @@ $(".square").on("click", function(){
 
 	switch(game.spaceSelected)
 	{
-		case "1.1":
+		case "1-1":
 			if(game.currentPlayer == 0)
 			{
 				game.grid[1][1] = 0;
@@ -28,7 +28,7 @@ $(".square").on("click", function(){
 			}
 			break;
 
-		case "1.2":
+		case "1-2":
 			if(game.currentPlayer == 0)
 			{
 				game.grid[1][2] = 0;
@@ -41,7 +41,7 @@ $(".square").on("click", function(){
 			}
 			break;
 
-		case "1.3":
+		case "1-3":
 			if(game.currentPlayer == 0)
 			{
 				game.grid[1][3] = 0;
@@ -54,7 +54,7 @@ $(".square").on("click", function(){
 			}
 			break;
 
-		case "2.1":
+		case "2-1":
 			if(game.currentPlayer == 0)
 			{
 				game.grid[2][1] = 0;
@@ -67,7 +67,7 @@ $(".square").on("click", function(){
 			}
 			break;
 
-		case "2.2":
+		case "2-2":
 			if(game.currentPlayer == 0)
 			{
 				game.grid[2][2] = 0;
@@ -80,7 +80,7 @@ $(".square").on("click", function(){
 			}
 			break;
 
-		case "2.3":
+		case "2-3":
 			if(game.currentPlayer == 0)
 			{
 				game.grid[2][3] = 0;
@@ -93,7 +93,7 @@ $(".square").on("click", function(){
 			}
 			break;
 
-		case "3.1":
+		case "3-1":
 			if(game.currentPlayer == 0)
 			{
 				game.grid[3][1] = 0;
@@ -106,7 +106,7 @@ $(".square").on("click", function(){
 			}
 			break;
 
-		case "3.2":
+		case "3-2":
 			if(game.currentPlayer == 0)
 			{
 				game.grid[3][2] = 0;
@@ -119,7 +119,7 @@ $(".square").on("click", function(){
 			}
 			break;
 
-		case "3.3":
+		case "3-3":
 			if(game.currentPlayer == 0)
 			{
 				game.grid[3][3] = 0;
