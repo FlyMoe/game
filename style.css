@@ -4,3 +4,13 @@
   height: 200px;
   border: 3px solid black;
 }
+
+#exes
+{
+	max-height: 175px;
+}
+
+#ohs
+{
+	max-height: 175px;
+}
